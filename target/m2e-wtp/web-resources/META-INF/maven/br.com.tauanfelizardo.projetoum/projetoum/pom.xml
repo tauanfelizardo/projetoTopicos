@@ -4,5 +4,38 @@
   <artifactId>projetoum</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Projeto Um</name>
+  <properties>
+  	<sonar.projectKey>projetoum</sonar.projectKey>
+  	<sonar.organization>projetoum</sonar.organization>
+  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  	<sonar.login>77cdb8152f4a7d162a2ca6f2a0b3f53c33635a82</sonar.login>
+  </properties>
   <packaging>war</packaging>
+	
+	<url></url>
+	<build>
+
+		<plugins>
+			<plugin>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<warSourceDirectory>src/main/webapp</warSourceDirectory>
+					<failOnMissingWebXml>false</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.0</version>
+				<configuration>
+					
+				</configuration>
+			</plugin>
+
+		</plugins>
+
+		<finalName>${project.artifactId}</finalName>
+	</build>
 </project>
