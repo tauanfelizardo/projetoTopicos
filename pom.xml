@@ -4,12 +4,12 @@
   <artifactId>projetoum</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Projeto Um</name>
-  <properties>
-  	<sonar.projectKey>projetoum</sonar.projectKey>
-  	<sonar.organization>projetoum</sonar.organization>
-  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  	<sonar.login>77cdb8152f4a7d162a2ca6f2a0b3f53c33635a82</sonar.login>
-  </properties>
+<properties>
+  <sonar.projectKey>tauanfelizardo_projetoTopicos</sonar.projectKey>
+  <sonar.organization>tauanfelizardo</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>416485e30dd75723105ad29a39a7b8f8270c4789</sonar.login>
+</properties>
   <packaging>war</packaging>
 	
 	<url></url>
